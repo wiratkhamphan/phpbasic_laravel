@@ -1,7 +1,6 @@
-<h3>Quert Praams </h3>
-
+<h3>Query Params</h3>
 <?php
-    if (isset($_GET['name'])){
-        echo $_GET['name'];
-    }
+if (isset($_GET['name'])) {  // name=kob
+    echo $_GET['name'];
+}
 ?>

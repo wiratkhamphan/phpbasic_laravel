@@ -1,8 +1,8 @@
 <?php
-$name = "lek";
+
+$name = "John";
 $age = 20;
 
 echo $name;
+echo $age;
 ?>
-
-<h1> Name : <?php echo $name; ?></h1>
