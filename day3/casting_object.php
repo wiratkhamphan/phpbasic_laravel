@@ -20,13 +20,17 @@ $product->name = 'iPhone';
 $product->price = 1000;
 
 $array = (array) $product;
+echo "<pre>";
 print_r($array);
-echo '<br />';
+echo "</pre>";
 
 echo (string) $product;
-echo '<br />';
+
 
 $product2 = new Product2();
-$product2 = (object) $array; // casting array to object
+$product2 = (object) $array; 
+// casting array to object
+echo "<pre>";
 print_r($product2);
+echo"</pre>";
 ?>
